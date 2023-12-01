@@ -36,8 +36,6 @@ stages:
     - data/features
     - model.pkl
     - src/evaluate.py
-    outs:
-    - eval
 metrics:
 - eval/metrics.json
 plots:

@@ -46,7 +46,7 @@ plots:
       eval/plots/sklearn/roc/train.json: tpr
       eval/plots/sklearn/roc/test.json: tpr
 - Confusion-Matrix:
-    template: simple
+    template: confusion
     x: actual
     y:
       eval/plots/sklearn/cm/train.json: predicted
